@@ -6,7 +6,7 @@ import (
 
 func GradingStudents(inputs []int) {
 	for _, input := range inputs {
-		fmt.Println(caculate(input))
+		fmt.Println(caculate(input), 1)
 	}
 }
 
