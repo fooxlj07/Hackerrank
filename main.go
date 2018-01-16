@@ -4,5 +4,5 @@ import "github.com/hacker_rank/f"
 
 func main() {
 
-	f.AppleAndOrange()
+	f.Kangaroos()
 }
