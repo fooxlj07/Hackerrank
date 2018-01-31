@@ -17,3 +17,11 @@ func ReadIntsInput(num int) []int {
 	}
 	return inputs
 }
+
+//ReadStringsInput ...
+//read string seperated by space
+func ReadStringInput() string {
+	var str string
+	_, _ = fmt.Scanln(&str)
+	return str
+}
